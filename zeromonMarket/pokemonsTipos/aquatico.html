@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="´pt">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -9,9 +9,31 @@
     <link rel="shortcut icon" href="../assets/favicon.png">
 </head>
 
-<h1>Pokemons Aquáticos</h1>
-
 <body background="./assets/WallpaperPokemon.jpg">
+    <header id="cabecalho">
+        <div align="center">
+            <img width="350px" src="../assets/logoZeromon.png" alt="Zeromon Logo">
+            <h2 style="font-style: italic">"♬ Temos que comprar eu sei...♬"</h2>
+        </div>
+        <a href="./carrinhoDeCompras/carrinhoDeCompras.html">
+            <img align="right" src="../assets/iconeCarrinho80-75.png" alt="Carrinho de compras">
+        </a>
+        <details>
+            <summary><strong>MENU DE POKEMONS</strong></summary>
+            <div style="font-size: large">
+                <nav>
+                    <ul>
+                        <li><a href="../pokemonsTipos/aquatico.html" target="_blanck">Aquáticos</a></li>
+                        <li><a href="../pokemonsTipos/eletrico.html" target="_blanck">Elétrico</a></li>
+                        <li><a href="../pokemonsTipos/fogo.html" target="_blanck">Fogo</a></li>
+                        <li><a href="../pokemonsTipos/terrestre.html" target="_blanck">Terrestre</a></li>
+                        <li><a href="../pokemonsTipos/voador.html" target="_blanck">Voador</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </details>
+    </header>
+    <h1>Pokemons Aquáticos</h1>
 
     <div class="box">
         <h3 id="Magikarp"><a href="./pokemons/129_Magikarp.html">Magikarp</a></h3>
@@ -22,10 +44,8 @@
         <a href="../carrinhoDeCompras/carrinhoDeCompras.html">
             <img align="left" src="../assets/buy.png" alt="Comprar">
         </a>
-
         <br>
     </div>
-
     <div class="box">
         <h3 id="Squirtle"><a href="./pokemons/7_Squirtle.html">Squirtle</a></h3>
         <a href="./pokemons/7_Squirtle.html"><img
@@ -35,10 +55,8 @@
         <a href="../carrinhoDeCompras/carrinhoDeCompras.html">
             <img align="left" src="../assets/buy.png" alt="Comprar">
         </a>
-
         <br>
     </div>
-
     <div class="box">
         <h3 id="Poliwag"><a href="./pokemons/6_Poliwag.html">Poliwag</a></h3>
         <a href="./pokemons/6_Poliwag.html"><img
@@ -48,10 +66,8 @@
         <a href="../carrinhoDeCompras/carrinhoDeCompras.html">
             <img align="left" src="../assets/buy.png" alt="Comprar">
         </a>
-
         <br>
     </div>
-
     <div class="box">
         <h3 id="Tentacool"><a href="./pokemons/72_Tentacool.html">Tentacool</a></h3>
         <a href="./pokemons/72_Tentacool.html"><img
@@ -61,10 +77,8 @@
         <a href="../carrinhoDeCompras/carrinhoDeCompras.html">
             <img align="left" src="../assets/buy.png" alt="Comprar">
         </a>
-
         <br>
     </div>
-
     <div class="box">
         <h3 id="Slowpoke"><a href="./pokemons/79_Slowpoke.html">Slowpoke</a></h3>
         <a href="./pokemons/79_Slowpoke.html"><img
@@ -74,41 +88,49 @@
         <a href="../carrinhoDeCompras/carrinhoDeCompras.html">
             <img align="left" src="../assets/buy.png" alt="Comprar">
         </a>
-
         <br>
     </div>
-
-    <h2>Index da página</h2>
-    <!--Checar depois hierarquia-->
     <div>
-        <nav>
+        <div class="boxFooter">
+            <h3>Fale conosco:</h3>
             <ul>
-                <li><a href="#Magikarp">Magikarp</a></li>
-                <li><a href="#Squirtle">Squirtle</a></li>
-                <li><a href="#Poliwag">Poliwag</a></li>
-                <li><a href="#Tentacool">Tentacool</a></li>
-                <li><a href="#Slowpoke">Slowpoke</a></li>
+                <li><a href="mailto:zeremon@zeressemos.com">E-mail institucional</a></li>
+                <li><a href="tel:+5524999999999">Telefone de contato</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="boxFooter">
+            <h3>Index da página</h3>
+            <nav>
+                <ul>
+                    <li><a href="#Magikarp">Magikarp</a></li>
+                    <li><a href="#Squirtle">Squirtle</a></li>
+                    <li><a href="#Poliwag">Poliwag</a></li>
+                    <li><a href="#Tentacool">Tentacool</a></li>
+                    <li><a href="#Slowpoke">Slowpoke</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="boxFooter">
+            <a href="../index.html">Retornar para página anterior...</a>
+        </div>
     </div>
-
+    <footer>
+        <div align="center">
+            <p><small>©Copyright 2021 Zeréssemos LTDA</small></p>
+        </div>
+    </footer>
     <style>
         div.box {
             width: 400px;
             display: inline-block;
         }
+
+        div.boxFooter {
+            width: 400px;
+            display: inline-table;
+        }
     </style>
 
-    <h4>Fale conosco:</h4>
-    <ul>
-        <li><a href="mailto:zeremon@zeressemos.com">E-mail institucional</a></li>
-        <li><a href="tel:+5524988671270">Telefone de contato</a></li>
-    </ul>
-
-    <p>++++++++++++++++++++++</p>
-    <a href="../index.html">Retornar para página anterior...</a>
-
 </body>
-
 
 </html>

@@ -10,6 +10,29 @@
 </head>
 
 <body background="./assets/WallpaperPokemon.jpg">
+    <header id="cabecalho">
+        <div align="center">
+            <img width="350px" src="../assets/logoZeromon.png" alt="Zeromon Logo">
+            <h2 style="font-style: italic">"♬ Temos que comprar eu sei...♬"</h2>
+        </div>
+        <a href="./carrinhoDeCompras/carrinhoDeCompras.html">
+            <img align="right" src="../assets/iconeCarrinho80-75.png" alt="Carrinho de compras">
+        </a>
+        <details>
+            <summary><strong>MENU DE POKEMONS</strong></summary>
+            <div style="font-size: large">
+                <nav>
+                    <ul>
+                        <li><a href="../pokemonsTipos/aquatico.html" target="_blanck">Aquáticos</a></li>
+                        <li><a href="../pokemonsTipos/eletrico.html" target="_blanck">Elétrico</a></li>
+                        <li><a href="../pokemonsTipos/fogo.html" target="_blanck">Fogo</a></li>
+                        <li><a href="../pokemonsTipos/terrestre.html" target="_blanck">Terrestre</a></li>
+                        <li><a href="../pokemonsTipos/voador.html" target="_blanck">Voador</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </details>
+    </header>
     <h1>Pokemons tipo Terrestre</h1>
 
     <div class="box">
@@ -19,8 +42,7 @@
                 alt="Carta Sandshrew"></a>
         <p>Pokémon do tipo terrestre, que evolui para Sandslash...</p>
         <a href="../carrinhoDeCompras/carrinhoDeCompras.html">
-            <img align="left" src="../assets/buy.png" alt="Comprar"></a>
-
+            <img align="left" src="../assets/iconeCarrinho80-75.png" alt="Comprar"></a>
         <br>
     </div>
     <div class="box">
@@ -34,7 +56,6 @@
 
         <br>
     </div>
-
     <div class="box">
         <h3 id="Cubone"><a href="./pokemons/104_Cubone.html">Cubone</a></h3>
         <a href="./pokemons/104_Cubone.html"><img
@@ -46,7 +67,6 @@
 
         <br>
     </div>
-
     <div class="box">
         <h3 id="Onix"><a href="./pokemons/95_Onix.html">Onix</a></h3>
         <a href="./pokemons/95_Onix.html"><img
@@ -59,7 +79,6 @@
 
         <br>
     </div>
-
     <div class="box">
         <h3 id="Geodude"><a href="./pokemons/74_Geodude.html">Geodude</a></h3>
         <a href="./pokemons/74_Geodude.html"><img
@@ -72,38 +91,46 @@
 
         <br>
     </div>
-
+    <div>
+        <div class="boxFooter">
+            <h3>Fale conosco:</h3>
+            <ul>
+                <li><a href="mailto:zeremon@zeressemos.com">E-mail institucional</a></li>
+                <li><a href="tel:+5524999999999">Telefone de contato</a></li>
+            </ul>
+        </div>
+        <div class="boxFooter">
+            <h3>Index da página</h3>
+            <nav>
+                <ul>
+                    <li><a href="#Sandshrew">Sandshrew</a></li>
+                    <li><a href="#Diglett">Diglett</a></li>
+                    <li><a href="#Cubone">Cubone</a></li>
+                    <li><a href="#Onix">Onix</a></li>
+                    <li><a href="#Geodude">Geodude</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="boxFooter">
+            <a href="../index.html">Retornar para página anterior...</a>
+        </div>
+    </div>
+    <footer>
+        <div align="center">
+            <p><small>©Copyright 2021 Zeréssemos LTDA</small></p>
+        </div>
+    </footer>
     <style>
         div.box {
             width: 400px;
             display: inline-block;
         }
+
+        div.boxFooter {
+            width: 400px;
+            display: inline-table;
+        }
     </style>
-
-    <h4>Index da página</h4>
-    <!--Checar depois hierarquia-->
-    <div>
-        <nav>
-            <ul>
-                <li><a href="#Sandshrew">Sandshrew</a></li>
-                <li><a href="#Diglett">Diglett</a></li>
-                <li><a href="#Cubone">Cubone</a></li>
-                <li><a href="#Onix">Onix</a></li>
-                <li><a href="#Geodude">Geodude</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <h4>Fale conosco:</h4>
-    <ul>
-        <li><a href="mailto:zeremon@zeressemos.com">E-mail institucional</a></li>
-        <li><a href="tel:+5524988671270">Telefone de contato</a></li>
-    </ul>
-
-    <p>++++++++++++++++++++++</p>
-    <a href="../index.html">Retornar para página anterior...</a>
-
 </body>
-
 
 </html>
