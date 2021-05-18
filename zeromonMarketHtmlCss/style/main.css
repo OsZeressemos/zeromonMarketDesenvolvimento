@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
-body{
-  background: linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,.20)100%), url(../assets/wallpaperPokemon.jpg); 
+header{
+  background: linear-gradient(rgba(212, 115, 24, 1),rgb(230, 190, 16)100%);
+  padding: 25px;
+  padding-bottom: 0;
+  }
+
+  .zeromon img{
+    width: 350px;
+    margin-left: 500px;
+  }
+
+  .zeromon h2{
+    margin-left: 420px;
+  }
+  
+.navbar{
+  font-size: 25px;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-left: 200px;
 }
