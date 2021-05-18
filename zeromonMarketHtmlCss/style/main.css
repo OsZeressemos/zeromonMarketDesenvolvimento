@@ -4,23 +4,39 @@
   box-sizing: border-box;
 }
 
-header{
+#cabecalho{
   background: linear-gradient(rgba(212, 115, 24, 1),rgb(230, 190, 16)100%);
   padding: 25px;
   padding-bottom: 0;
+}
+
+.zeromon img{
+  width: 350px;
+  margin-left: 500px;
   }
 
-  .zeromon img{
-    width: 350px;
-    margin-left: 500px;
-  }
-
-  .zeromon h2{
-    margin-left: 420px;
-  }
-  
+.zeromon h2{
+  margin-left: 420px;
+}
 .navbar{
   font-size: 25px;
-  font-family: 'Noto Sans TC', sans-serif;
-  margin-left: 200px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin-left: 350px;
+}
+button{
+  color: brown;
+  border-radius: 30%;
+  border:none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+  /*background-color: rgba(0,0,0,.50);
+}
+.button:hover{
+  background-color: white;
+  color:black
+}*/
+.box{
+  margin-left: 45px;
 }
