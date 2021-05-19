@@ -24,6 +24,13 @@ header{
   width: 350px;
 }
 
+/*.zeromon img {
+  margin-right: calc(50% - 350px/2);
+  margin-left: calc(50% - 350px/2);
+  width: 350px;
+  padding-top: 25px;
+}*/
+
 .zeromon h2 {
   text-align: center;
   font-size: medium;
@@ -82,4 +89,23 @@ div.box a:-webkit-any-link {
 
 .nav-car img{
   width: 50px;
+}
+
+footer{
+  margin-top: 25px;
+  display: block;
+  width: 100%;
+}
+
+footer div a i img{
+  width: 40px;
+  border-radius: 5px;
+}
+
+footer div a{
+  color:transparent;
+}
+
+.p-4{ /*Background Copyright*/
+  background-color: #252833;
 }
