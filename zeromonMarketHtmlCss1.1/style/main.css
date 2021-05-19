@@ -105,7 +105,9 @@ footer div a i img{
 footer div a{
   color:transparent;
 }
-
 .p-4{ /*Background Copyright*/
   background-color: #252833;
+}
+p{
+  text-align: justify;
 }
