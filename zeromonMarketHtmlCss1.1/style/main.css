@@ -5,16 +5,18 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(153, 218, 255, 0.822)100%); 
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(153, 218, 255, 0.822)100%);
 }
 
-#top{
-  margin-top: 300px;
+body h1 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 25px;
 }
 
-header{
+header {
   display: block;
-  position: fixed;
   width: 100%;
   background-image: url(../assets/wallpaperPokemonOpaco.jpg);
 }
@@ -83,31 +85,49 @@ div.box a:-webkit-any-link {
   cursor: pointer;
 }
 
-.nav-car{
+.nav-car {
   margin-left: 230px;
 }
 
-.nav-car img{
+.nav-car img {
   width: 50px;
 }
 
-footer{
+footer {
   margin-top: 25px;
   display: block;
   width: 100%;
 }
 
-footer div a i img{
+footer div a i img {
   width: 40px;
   border-radius: 5px;
 }
 
-footer div a{
-  color:transparent;
+footer div a {
+  color: transparent;
 }
-.p-4{ /*Background Copyright*/
+
+.p-4 {
+  /*Background Copyright*/
   background-color: #252833;
 }
-p{
+
+p {
   text-align: justify;
+}
+
+.textConfig{
+  margin-bottom: 50px;
+}
+.textConfig h3{
+  font-size: larger;
+  font-weight: bolder;
+}
+.textConfig p{
+  font-size: larger;
+  font-weight: bolder;
+}
+.textConfig li{
+  font-size: larger;
 }
