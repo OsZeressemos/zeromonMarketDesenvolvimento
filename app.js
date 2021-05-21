@@ -8,7 +8,7 @@ const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types
   const elementTypes = types.map(typeInfo => typeInfo.type.name)
   accumulator += `
         <li class="card ${elementTypes[0]}">
-          <img class="card-image alt="${name}" src="./assets/pokemonsID/${id}.png" /><br>
+          <img class="card-image alt="${name}" src="./zeromonMarketHtmlCssJs/assets/pokemonsID/${id}.png" /><br>
           <h2 class="card-title">${id}.${name}</h2>
           <p class="card-subtitle">${elementTypes.join(' | ')}</p><br>
           <h3><button class="buttonCompra" type="button" id="btnCompra" onclick="comprar()">Comprar</button></h3>
