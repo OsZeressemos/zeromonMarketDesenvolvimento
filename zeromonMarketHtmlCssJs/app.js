@@ -1,6 +1,14 @@
 //inicio chamada PokeAPI 
 const getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
+var query = window.location.search;
+
+const urlParameters = new URLSearchParams(query)
+
+const type = urlParameters.get('type')
+
+console.log(type)
+
 const generatePokemonPromises = () => Array(150).fill().map((_, index) =>
   fetch(getPokemonUrl(index + 1)).then(response => response.json()))
 
@@ -31,4 +39,10 @@ Promise.all(pokemonPromises)
 function comprar() {
   var comprar = document.getElementById('btnCompra')
   console.log("estou comprando")
+}
+
+function filterTypes() {
+  if(type == 11){
+    
+  }
 }
