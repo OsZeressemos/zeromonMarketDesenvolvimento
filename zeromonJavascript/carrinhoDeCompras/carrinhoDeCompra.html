@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,87 +12,96 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../../assets/favicon.png">
-    <link rel="stylesheet" href="../../style/main.css">
+    <link rel="shortcut icon" href="../../zeromonMarketHtmlCss1.1/assets/favicon.png">
+    <link rel="stylesheet" href="../style/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>Zeromon Market</title>
 </head>
 
 <body>
     <header>
         <div class="zeromon">
-            <img src="../../assets/logoZeromon.png" alt="Zeromon Logo">
+            <img src="../assets/logoZeromon.png" alt="Zeromon Logo">
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse" id="textoNavbar">
                 <ul class="navbar-nav mr-auto">
                     <button>
                         <li class="nav-item active">
-                            <a class="nav-link" href="../../index.html">Home<span class="sr-only"></span></a>
+                            <a class="nav-link" href="../index.html">Home<span class="sr-only"></span></a>
                         </li>
                     </button>
                     <button>
                         <li class="nav-item">
-                            <a class="nav-link" href="../aquatico.html">Aquáticos</a>
+                            <a class="nav-link" href="../pokemonsTipos/aquatico.html">Aquáticos</a>
                         </li>
                     </button>
                     <button>
                         <li class="nav-item">
-                            <a class="nav-link" href="../eletrico.html">Elétrico</a>
+                            <a class="nav-link" href="../pokemonsTipos/eletrico.html">Elétrico</a>
                         </li>
                     </button>
                     <button>
                         <li class="nav-item">
-                            <a class="nav-link" href="../fogo.html">Fogo</a>
+                            <a class="nav-link" href="../pokemonsTipos/fogo.html">Fogo</a>
                         </li>
                     </button>
                     <button>
                         <li class="nav-item">
-                            <a class="nav-link" href="../terrestre.html">Terrestre</a>
+                            <a class="nav-link" href="../pokemonsTipos/terrestre.html">Terrestre</a>
                         </li>
                     </button>
                     <button>
                         <li class="nav-item">
-                            <a class="nav-link" href="../voador.html">Voador</a>
-                        </li>
-                    </button>
-                    <button class="nav-car">
-                        <li>
-                            <a href="../../carrinhoDeCompras/carrinhoDeCompras.html">
-                                <img src="../../assets/iconeCarrinho80-75.png" alt="Carrinho de compras">
-                            </a>
+                            <a class="nav-link" href="../pokemonsTipos/voador.html">Voador</a>
                         </li>
                     </button>
                 </ul>
             </div>
         </nav>
     </header>
-    <h1>Slowpoke</h1>
+    <h1>Carrinho de Compras</h1>
+    <div class="container-fluid">
+        <div class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control" id="desc" placeholder="Description">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="amount" placeholder="Amount">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="value" placeholder="Value">
+            </div>
+            <span id="btnUpdate" style="display: none;">
+                <span id="inputIDUpdate"></span>
+                <button onclick="updateData();" class="btn btn-default">Save</button>
+                <button onclick="resetForm();" class="btn btn-default">Cancel</button>
+            </span>
+            <span id="btnAdd">
+                <button onclick="addData();" class="btn btn-default">Add</button>
+                <button onclick="resetForm();" class="btn btn-default">Reset</button>
+                <button onclick="deleteList();" class="btn btn-default">Delete list</button>
+            </span>
+        </div>
 
-    <div class="textConfig">
-        <img src="https://mypcards.com/img/2/209/pokemon_bkp_019_122/pokemon_bkp_019_122_en.jpg" alt="Carta Slowpoke">
+        <div id="errors" style="display: none;"></div>
 
-        <p>Pokémon do tipo água e psíquico, que evolui para Slowbro e Slowking</p>
+        <table id="listTable" class="table">
 
-        <h4>Características</h4>
-        <ul>
-            <li>Peso: 36 kg </li>
-            <li>Altura: 1,20 m</li>
-            <li>Gênero: Masc/Fem</li>
-        </ul>
-
-        <h4>Habilidades</h4>
-        <ul>
-            <li>Habilidade: É desatento, e isso impede que ele fique apaixonado ou com raiva por insultos</li>
-        </ul>
-
-        <h4>Preço: R$ 20,00</h4>
-
-        <a href="../../carrinhoDeCompras/carrinhoDeCompras.html">
-            <img align="left" src="../../assets/buy.png" alt="Comprar">
-        </a>
+        </table>
     </div>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <h4 class="text-center text-success">Total: <span id="totalValue">$ 0,00</span></h4>
+        </div>
+    </nav>
+
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
     <footer class="text-center text-lg-start bg-light text-muted">
         <div style="background-color: #282b37;">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -194,7 +203,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>

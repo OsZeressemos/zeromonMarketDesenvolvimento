@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100%;
 }
 
 body {
@@ -17,7 +18,6 @@ body h1 {
 
 header {
   display: block;
-  width: 100%;
   background-image: url(../assets/wallpaperPokemonOpaco.jpg);
 }
 
@@ -87,6 +87,7 @@ div.box a:-webkit-any-link {
 
 .nav-car {
   margin-left: 230px;
+  margin-inline-end: auto;
 }
 
 .nav-car img {
@@ -130,4 +131,8 @@ p {
 }
 .textConfig li{
   font-size: larger;
+}
+
+#btn-compra{
+  background-image: url(../assets/buy.png);
 }
