@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="./assets/favicon.png">
-    <link rel="stylesheet" href="./global/style/main.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./global/style/pokeApi.css">
     <link rel="stylesheet" href="./carrinhoDeCompras/carrinho.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -23,217 +23,213 @@
 </head>
 
 <body>
-    <header>
-        <div class="zeromon">
-            <img src="assets/logoZeromon.png" alt="Zeromon Logo">
-        </div>
-        <nav class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse" id="textoNavbar">
-                <ul class="navbar-nav mr-auto">
-                    <button>
+    <div id="main">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/logoZeromon.png">
+                      </a>
+                  
+                    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                      <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+                          <a class="nav-link" href="#">Home</a>
                         </li>
-                    </button>
-                    <button>
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html?type=11">Aquáticos</a>
+                          <a class="nav-link" href="#">Produtos</a>
                         </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pokemonsTipos/eletrico.html">Elétrico</a>
+                        <li class="navbarDropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cartas
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Grass</a>
+                            <a class="dropdown-item" href="#">Poison</a>
+                            <a class="dropdown-item" href="#">Fire</a>
+                            <a class="dropdown-item" href="#">Flying</a>
+                            <a class="dropdown-item" href="#">Water</a>
+                            <a class="dropdown-item" href="#">Bug</a>
+                            <a class="dropdown-item" href="#">Eletric</a>
+                            <a class="dropdown-item" href="#">Ground</a>
+                            <a class="dropdown-item" href="#">Dairy</a>
+                            <a class="dropdown-item" href="#">Fighting</a>
+                            <a class="dropdown-item" href="#">Psychic</a>
+                            <a class="dropdown-item" href="#">Rock</a>
+                            <a class="dropdown-item" href="#">Steel</a>
+                            <a class="dropdown-item" href="#">Ice</a>
+                            <a class="dropdown-item" href="#">Ghost</a>
+                            <a class="dropdown-item" href="#">Dragon</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                          </div>
                         </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pokemonsTipos/fogo.html">Fogo</a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pokemonsTipos/terrestre.html">Terrestre</a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pokemonsTipos/voador.html">Voador</a>
-                        </li>
-                    </button>
-                    <button class="nav-car">
-                        <li>
-                            <a href="./carrinhoDeCompras/carrinhoDeCompra.html">
-                                <img src="./assets/iconeCarrinho80-75.png" alt="Carrinho de compras">
-                            </a>
-                        </li>
-                    </button>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!--Inicio carousel-->
-    <section class="carousel-init">
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <picture>
-                        <source media="(min-width:600px)" srcset=""> <!--imagem grande-->
-                        <img src="assets/carousel/banner01.jpeg" class="d-block w-100" alt=""><!--imagem menor-->
-                    </picture>
-                </div>    
-                <div class="carousel-item" data-bs-interval="3000">
-                    <picture>
-                        <source media="(min-width:600px)" srcset=""> 
-                        <img src="assets/carousel/banner02.jpeg" class="d-block w-100" alt="">
-                    </picture>
+                      </ul>
+                    </div>
+                  </nav>
+        </header>
+        <!--Inicio carousel-->
+        <section class="carousel-init">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <picture>
-                        <source media="(min-width:600px)" srcset=""> 
-                        <img src="assets/carousel/banner03.jpeg" class="d-block w-100" alt="">
-                    </picture>
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <picture>
-                        <source media="(min-width:600px)" srcset=""> 
-                        <img src="assets/carousel/banner04.jpeg" class="d-block w-100" alt="">
-                    </picture>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-        </section>
-        <!--Fim caroussel-->
-    <!--Inicio chamada PokeAPI-->
-    <div class="container">
-        <ul data-js="pokedex" class="pokedex"></ul>
-    </div>
-    <!--Fim chamada PokeAPI-->
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <div style="background-color: #282b37;">
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <div class="me-5 d-none d-lg-block">
-                    <span>Integrantes da Zeréssemos:</span>
-                </div>
-                <div class="me-5 d-none d-lg-block">
-                    <a href="https://www.linkedin.com/in/volnei-paulino-neves-filho-495a84168/" target="_blank">
-                        <i class="github"><img src="https://unavatar.now.sh/github/Volneineves"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/fredericostilpen/" target="_blank">
-                        <i class="github"><img src="https://unavatar.now.sh/github/FredericoStilpen"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/marcos-paulo-marques-corr%C3%AAa-gomes/" target="_blank">
-                        <i class="github"><img src="https://unavatar.now.sh/github/marcosbarker"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/gabriel-macedo-ara%C3%BAjo-951603165/" target="_blank">
-                        <i class="github"><img src="https://unavatar.now.sh/github/M4G1Ck"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jpbade/" target="_blank">
-                        <i class="github"><img src="https://unavatar.now.sh/github/JpBade"></i>
-                    </a>
-
-                    <a href="https://github.com/raiocodrigues" target="_blank">
-                        <i class="github"><img src="https://unavatar.vercel.app/github/raiocodrigues"></i>
-                    </a>
-                </div>
-            </section>
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <div class="row mt-3">
-
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Zeréssemos Company
-                            </h6>
-                            <p>
-                                Baseado na equipe Rocket, a Zeréssemos Company veio para proteger o mundo da devastação!
-                                Para unir as pessoas de nossa nação! Pra denunciar os males da verdade e do amor! Pra
-                                estender nosso poder as estrelas! Caio, Fred, JP, Gabriel, Marcos e Volnei! Equipe
-                                Zeréssemos decolando na velocidade da Luz! Renda-se Agora ou prepare-se Para Lutar!
-                            </p>
-                        </div>
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Pokemons
-                            </h6>
-                            <p>
-                                <a href="./index.html" class="text-reset">Home</a>
-                            </p>
-                            <p>
-                                <a href="./pages/aquaticos/aquatico.html" class="text-reset">Aquáticos</a>
-                            </p>
-                            <p>
-                                <a href="./pages/eletricos/eletrico.html" class="text-reset">Elétrico</a>
-                            </p>
-                            <p>
-                                <a href="./pages/fogo/fogo.html" class="text-reset">Fogo</a>
-                            </p>
-                            <p>
-                                <a href="./pages/terrestres/terrestre.html" class="text-reset">Terrestre</a>
-                            </p>
-                            <p>
-                                <a href="./pages/voadores/voador.html" class="text-reset">Voador</a>
-                            </p>
-                        </div>
-
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Links interessantes
-                            </h6>
-                            <p>
-                                <a href="https://github.com/OsZeressemos" class="text-reset">GitHub</a>
-                            </p>
-                            <p>
-                                <a href="https://www.pokemon.com/br/pokedex/" class="text-reset">Pokédex</a>
-                            </p>
-                            <p>
-                                <a href="http://pudim.com.br/" class="text-reset">Pudim</a>
-                            </p>
-                        </div>
-
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Contato
-                            </h6>
-                            <p>
-                            <address>Petrópolis, Rio de Janeiro, BR</address>
-                            </p>
-                            <p>
-                                <a href="mailto:zeressemos@tech.com" class="text-reset">zeressemos@tech.com</a>
-                            </p>
-                        </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <picture>
+                            <source media="(min-width:600px)" srcset=""> <!--imagem grande-->
+                            <img src="assets/carousel/banner01.jpeg" class="d-block w-100" alt=""><!--imagem menor-->
+                        </picture>
+                    </div>    
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <picture>
+                            <source media="(min-width:600px)" srcset=""> 
+                            <img src="assets/carousel/banner02.jpeg" class="d-block w-100" alt="">
+                        </picture>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <picture>
+                            <source media="(min-width:600px)" srcset=""> 
+                            <img src="assets/carousel/banner03.jpeg" class="d-block w-100" alt="">
+                        </picture>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <picture>
+                            <source media="(min-width:600px)" srcset=""> 
+                            <img src="assets/carousel/banner04.jpeg" class="d-block w-100" alt="">
+                        </picture>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+                </div>
             </section>
-            <div class="text-center p-4">
-                © 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://github.com/OsZeressemos">zeressemos.com</a>
-            </div>
+            <!--Fim caroussel-->
+        <!--Inicio chamada PokeAPI-->
+        <div class="container">
+            <ul data-js="pokedex" class="pokedex"></ul>
         </div>
-    </footer>
+        <!--Fim chamada PokeAPI-->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <div style="background-color: #282b37;">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Integrantes da Zeréssemos:</span>
+                    </div>
+                    <div class="me-5 d-none d-lg-block">
+                        <a href="https://www.linkedin.com/in/volnei-paulino-neves-filho-495a84168/" target="_blank">
+                            <i class="github"><img src="https://unavatar.now.sh/github/Volneineves"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/fredericostilpen/" target="_blank">
+                            <i class="github"><img src="https://unavatar.now.sh/github/FredericoStilpen"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/marcos-paulo-marques-corr%C3%AAa-gomes/" target="_blank">
+                            <i class="github"><img src="https://unavatar.now.sh/github/marcosbarker"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gabriel-macedo-ara%C3%BAjo-951603165/" target="_blank">
+                            <i class="github"><img src="https://unavatar.now.sh/github/M4G1Ck"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jpbade/" target="_blank">
+                            <i class="github"><img src="https://unavatar.now.sh/github/JpBade"></i>
+                        </a>
+
+                        <a href="https://github.com/raiocodrigues" target="_blank">
+                            <i class="github"><img src="https://unavatar.vercel.app/github/raiocodrigues"></i>
+                        </a>
+                    </div>
+                </section>
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3">
+
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <i class="fas fa-gem me-3"></i>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Zeréssemos Company
+                                </h6>
+                                <p>
+                                    Baseado na equipe Rocket, a Zeréssemos Company veio para proteger o mundo da devastação!
+                                    Para unir as pessoas de nossa nação! Pra denunciar os males da verdade e do amor! Pra
+                                    estender nosso poder as estrelas! Caio, Fred, JP, Gabriel, Marcos e Volnei! Equipe
+                                    Zeréssemos decolando na velocidade da Luz! Renda-se Agora ou prepare-se Para Lutar!
+                                </p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Pokemons
+                                </h6>
+                                <p>
+                                    <a href="./index.html" class="text-reset">Home</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/aquaticos/aquatico.html" class="text-reset">Aquáticos</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/eletricos/eletrico.html" class="text-reset">Elétrico</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/fogo/fogo.html" class="text-reset">Fogo</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/terrestres/terrestre.html" class="text-reset">Terrestre</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/voadores/voador.html" class="text-reset">Voador</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Links interessantes
+                                </h6>
+                                <p>
+                                    <a href="https://github.com/OsZeressemos" class="text-reset">GitHub</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.pokemon.com/br/pokedex/" class="text-reset">Pokédex</a>
+                                </p>
+                                <p>
+                                    <a href="http://pudim.com.br/" class="text-reset">Pudim</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Contato
+                                </h6>
+                                <p>
+                                <address>Petrópolis, Rio de Janeiro, BR</address>
+                                </p>
+                                <p>
+                                    <a href="mailto:zeressemos@tech.com" class="text-reset">zeressemos@tech.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="text-center p-4">
+                    © 2021 Copyright:
+                    <a class="text-reset fw-bold" href="https://github.com/OsZeressemos">zeressemos.com</a>
+                </div>
+            </div>
+        </footer>
+        <script src="./app.js"></script>
+        <script src="global/pokeApi.js"></script>
+        <!--plugins Js Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
 </body>
-<script src="./app.js"></script>
-<script src="global/pokeApi.js"></script>
-<!--plugins Js Bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
