@@ -149,6 +149,5 @@ p {
 
 /*carousel*/
 .carousel-init img{
-  height: 600px;
-  width: 100%;
+    width: 100%;
 }
