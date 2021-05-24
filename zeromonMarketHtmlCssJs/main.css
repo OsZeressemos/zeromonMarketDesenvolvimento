@@ -44,6 +44,38 @@ body h1 {
   font-weight: bolder;
 }
 
+#subirTopo {
+  text-decoration: none;
+  background: rgba(30,156,161,.9);
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  border: 0;
+  font-family: sans-serif;
+  opacity: .8;
+  background-color: #38322e;
+  border-radius: 65px;
+  bottom: 14px;
+  box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+  color: #d9a000;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  z-index: 3;
+  }
+  
+  #subirTopo:hover {
+  opacity:1;
+  }
 
 /*.zeromon img {
   margin-right: calc(50% - 350px/2);
