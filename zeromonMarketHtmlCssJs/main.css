@@ -34,11 +34,11 @@ body h1 {
   border: 0;
   font-family: sans-serif;
   opacity: .8;
-  background-color: #38322e;
+  background-color: #04AA6D;
   border-radius: 65px;
   bottom: 14px;
   box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
-  color: #d9a000;
+  color: #ff0000;
   cursor: pointer;
   height: 40px;
   position: fixed;
