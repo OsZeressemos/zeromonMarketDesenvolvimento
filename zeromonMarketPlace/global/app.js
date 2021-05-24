@@ -11,12 +11,10 @@ function scrollFunction() {
   }
 }
 function topFunction() {
-  document.body.scrollTop = 0; //Navegador Safari
-  document.documentElement.scrollTop = 0; // Navegadores Chrome, Firefox, IE e Opera
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
 }
 
-//Header
-//Navegação mobile
 if ($("#nav-menu-container").length) {
   var $mobile_nav = $("#nav-menu-container").clone().prop({
     id: "mobile-nav",
@@ -60,7 +58,6 @@ if ($("#nav-menu-container").length) {
   $("#mobile-nav, #mobile-nav-toggle").hide();
 }
 
-// Smooth scroll
 $(".nav-menu a, #mobile-nav a, .scrollto").on("click", function () {
   if (
     location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") &&
