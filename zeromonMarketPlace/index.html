@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +10,7 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./global/style/pokeApi.css">
     <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="produtos/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -127,9 +127,8 @@
             </button>
         </div>
     </section>
-    <!--Fim caroussel-->
-
-    <!-- Modal -->
+    <!--Fim carousel-->
+    <!-- inicio bootstrap modal -->
     <div id="modalConfig">
         <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -144,24 +143,21 @@
                     </div>
                     <div class="modal-body">
                         <table class="show-cart table">
-
                         </table>
                         <div>Preço total: R$<span class="total-cart"></span></div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-secondaryF" data-dismiss="modal">Fechar</button>
                         <a href="./carrinhoDeCompras/fechamentoDePedido/fechamento.html"><button type="button"
-                                class="btn btn-primary">Finalizar pedido</button></a>
-
+                                class="btn btn-primaryF">Finalizar pedido</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- partial -->
+    <!-- fim bootstrap modal -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script src="../produtos/produto.js"></script>
-
     <!--Inicio chamada PokeAPI-->
     <div class="container">
         <ul data-js="pokedex" class="pokedex"></ul>
