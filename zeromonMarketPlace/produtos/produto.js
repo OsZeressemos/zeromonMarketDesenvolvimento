@@ -2,19 +2,16 @@
 
     cart = [];
     
-
     function Item(name, price, count) {
       this.name = name;
       this.price = price;
       this.count = count;
     }
-    
- 
+     
     function saveCart() {
       sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
     }
     
-
     function loadCart() {
       cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
     }
@@ -22,10 +19,8 @@
       loadCart();
     }
     
-
     var obj = {};
     
-
     obj.addItemToCart = function(name, price, count) {
       for(var item in cart) {
         if(cart[item].name === name) {
@@ -61,7 +56,6 @@
       saveCart();
     }
   
- 
     obj.removeItemFromCartAll = function(name) {
       for(var item in cart) {
         if(cart[item].name === name) {
@@ -72,13 +66,11 @@
       saveCart();
     }
   
-
     obj.clearCart = function() {
       cart = [];
       saveCart();
     }
   
-
     obj.totalCount = function() {
       var totalCount = 0;
       for(var item in cart) {
@@ -87,7 +79,6 @@
       return totalCount;
     }
   
-
     obj.totalCart = function() {
       var totalCart = 0;
       for(var item in cart) {
@@ -152,8 +143,7 @@
     shoppingCart.removeItemFromCartAll(name);
     displayCart();
   })
-  
-  
+   
   $('.show-cart').on("click", ".minus-item", function(event) {
     var name = $(this).data('name')
     shoppingCart.removeItemFromCart(name);
