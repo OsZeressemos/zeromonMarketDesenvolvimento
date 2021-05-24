@@ -68,14 +68,55 @@
   color: rgb(26, 85, 158, 1);
 }
 
-.btn-primary {
-  color: rgb(0, 0, 0) !important;
+.btn-primaryF {
+  color: black !important;
   background-color: #FFCC00 !important;
+  border: none !important;
+  font-family: rubik !important;
+  border-radius: 10px !important;
+  height: 25px !important;
+  padding: 0px !important;
+  width: 150px !important;
 }
 
-.btn-secondary {
-  color: #fff;
+.btn-primaryF:hover {
+  position: static !important;
+  box-shadow: 10px 10px 50px 10px rgb(26, 85, 158, 60%) !important;
+  color: rgb(26, 85, 158, 1) !important;
+}
+
+.btn-secondaryF {
+  color: black !important;
   background-color: #FFCC00 !important;
+  border: none !important;
+  font-family: rubik !important;
+  border-radius: 10px !important;
+  height: 25px !important;
+  padding: 0px !important;
+  width: 150px !important;
+}
+
+.btn-secondaryF:hover {
+  position: static !important;
+  box-shadow: 10px 10px 50px 10px rgb(26, 85, 158, 60%) !important;
+  color: rgb(26, 85, 158, 1) !important;
+}
+/*botao de - */
+.btn-primary {
+  color: black !important;
+  background-color: #FBAE06 !important;
+  border: none !important;
+  font-family: rubik !important;
+  height: 40px !important;
+  padding: 0px !important;
+  width: 35px !important;
+  border: none !important;
+}
+
+.delete-item{
+  color: white !important;
+  background-color: #FBAE06  !important;
+  border: none !important;
 }
 
 h3 {

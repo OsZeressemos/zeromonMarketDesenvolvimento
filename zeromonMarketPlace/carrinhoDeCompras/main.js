@@ -4,8 +4,6 @@ var list = [
 	{"desc":"meat", "amount":"1", "value":"15.00"}
 ];
 
-
-//somando total
 function getTotal(list){
 	var total = 0;
 	for(var key in list){
@@ -14,7 +12,6 @@ function getTotal(list){
 	document.getElementById("totalValue").innerHTML = formatValue(total);
 }
 
-//criando a tabela
 function setList(list){
 	var table = '<thead><tr><td>Description</td><td>Amount</td><td>Value</td><td>Action</td></tr></thead><tbody>';
 	for(var key in list){
@@ -27,19 +24,16 @@ function setList(list){
 	saveListStorage(list);
 }
 
-//formatando o nome do produto
 function formatDesc(desc){
 	var str = desc.toLowerCase();
 	str = str.charAt(0).toUpperCase() + str.slice(1);
 	return str;
 }
 
-//formatando a quantidade
 function formatAmount(amount){
 	return parseInt(amount);
 }
 
-//formatando o preço
 function formatValue(value){
 	var str = parseFloat(value).toFixed(2) + "";
 	str = str.replace(".",",");
@@ -47,7 +41,6 @@ function formatValue(value){
 	return str;
 }
 
-//adicionar novo produto
 function addData(){
 	if(!validation()){
 		return;
@@ -60,7 +53,6 @@ function addData(){
 	setList(list);
 }
 
-//botões de editar
 function setUpdate(id){
 	var obj = list[id];
 	document.getElementById("desc").value = obj.desc;
@@ -72,7 +64,6 @@ function setUpdate(id){
 	document.getElementById("inputIDUpdate").innerHTML = '<input id="idUpdate" type="hidden" value="'+id+'">';
 }
 
-//limpa os campos de editar
 function resetForm(){
 	document.getElementById("desc").value = "";
 	document.getElementById("amount").value = "";
@@ -84,7 +75,6 @@ function resetForm(){
 	document.getElementById("errors").style.display = "none";
 }
 
-//atualizando os dados
 function updateData(){
 	if(!validation()){
 		return;
@@ -99,7 +89,6 @@ function updateData(){
 	setList(list);
 }
 
-//deletando os dados
 function deleteData(id){
 	if(confirm("Delete this item?")){
 		if(id === list.length - 1){
@@ -115,7 +104,6 @@ function deleteData(id){
 	}
 }
 
-//validando e printando erros
 function validation(){
 	var desc = document.getElementById("desc").value;
 	var amount = document.getElementById("amount").value;
@@ -146,7 +134,6 @@ function validation(){
 	}
 }
 
-//deletando lista
 function deleteList(){
 	if (confirm("Delete this list?")){
 		list = [];
@@ -154,13 +141,11 @@ function deleteList(){
 	}
 }
 
-//salvando em storage
 function saveListStorage(list){
 	var jsonStr = JSON.stringify(list);
 	localStorage.setItem("list",jsonStr);
 }
 
-//verifica se já tem algo salvo
 function initListStorage(){
 	var testList = localStorage.getItem("list");
 	if(testList){
