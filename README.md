@@ -1,1 +1,1 @@
-![](zeromonMarket/assets/logoZeromon.png)
+![](zeromonMarketPlace/assets/logoZeromon.png)
