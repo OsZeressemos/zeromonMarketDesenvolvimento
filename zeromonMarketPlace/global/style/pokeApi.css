@@ -65,3 +65,10 @@
     transform: scale(1.1);
     box-shadow: 12px 15px 20px rgb(0 0 0 / 50%);
 }
+
+@media screen and (max-width: 600px){
+
+    .pokedex {
+        padding-left: 0px;
+    }
+}
