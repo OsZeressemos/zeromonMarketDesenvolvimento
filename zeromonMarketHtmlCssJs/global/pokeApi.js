@@ -19,7 +19,7 @@ const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types
           <img class="card-image alt="${name}" src="./assets/pokemonsID/${id}.png" /><br>
           <h2 class="card-title">${id}.${name}</h2>
           <p class="card-subtitle">${elementTypes.join(' | ')}</p><br>
-          <h3><button class="buttonCompra" type="button" id="btnCompra" onclick="comprar()">Comprar</button></h3>
+       <!--<h3><button class="buttonCompra" type="button" id="btnCompra" onclick="comprar()">Comprar</button></h3>-->
         </li>`
   return accumulator
 }, '')

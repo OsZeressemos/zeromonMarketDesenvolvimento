@@ -13,17 +13,22 @@
   }
 
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
+    width: 10rem;
+    height: 25px;
     border: none;
-    cursor: pointer;
+    font-size: 15px;
+    font-family: rubik;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #FFCC00;
+    border: none;
   }
 
-  input[type=submit]:hover {
-    background-color: #45a049;
+  input[type=submit]:hover{
+    position: static;
+    box-shadow: 10px 10px 50px 10px rgb(26, 85, 158, 60%);
+    color: rgb(26, 85, 158, 1);
   }
-
 
   .container-lg {
     margin-top: 50px;
