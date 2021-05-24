@@ -1,8 +1,3 @@
-function comprar() {
-  var comprar = document.getElementById('btnCompra')
-  console.log("estou comprando")
-}
-
 mybutton = document.getElementById("botaoTopo");
 window.onscroll = function () {
   scrollFunction();
