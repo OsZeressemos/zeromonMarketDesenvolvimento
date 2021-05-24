@@ -13,7 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../../zeromonMarketHtmlCss1.1/assets/favicon.png">
-    <link rel="stylesheet" href="../style/main.css">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="../carrinhoDeCompras/carrinho.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -22,67 +25,110 @@
 
 <body>
     <header>
-        <div class="zeromon">
-            <img src="../assets/logoZeromon.png" alt="Zeromon Logo">
+        <div class="topnav" id="myTopnav">
+            <a class="active"><img width="80px" src="../assets/logoZeromon.png" alt="Zeremon Home"></a>
+            <a href="#home">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Cartas
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a class="dropdown-item" href="#">Grass</a>
+                    <a class="dropdown-item" href="#">Poison</a>
+                    <a class="dropdown-item" href="#">Fire</a>
+                    <a class="dropdown-item" href="#">Flying</a>
+                    <a class="dropdown-item" href="#">Water</a>
+                    <a class="dropdown-item" href="#">Bug</a>
+                    <a class="dropdown-item" href="#">Eletric</a>
+                    <a class="dropdown-item" href="#">Ground</a>
+                    <a class="dropdown-item" href="#">Dairy</a>
+                    <a class="dropdown-item" href="#">Fighting</a>
+                    <a class="dropdown-item" href="#">Psychic</a>
+                    <a class="dropdown-item" href="#">Rock</a>
+                    <a class="dropdown-item" href="#">Steel</a>
+                    <a class="dropdown-item" href="#">Ice</a>
+                    <a class="dropdown-item" href="#">Ghost</a>
+                    <a class="dropdown-item" href="#">Dragon</a>
+                </div>
+            </div>
+            <a href="#about">Sobre nós</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <nav class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse" id="textoNavbar">
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <!--
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logoZeromon.png">
+            </a>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto">
-                    <button>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home<span class="sr-only"></span></a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pokemonsTipos/aquatico.html">Aquáticos</a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pokemonsTipos/eletrico.html">Elétrico</a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pokemonsTipos/fogo.html">Fogo</a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pokemonsTipos/terrestre.html">Terrestre</a>
-                        </li>
-                    </button>
-                    <button>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pokemonsTipos/voador.html">Voador</a>
-                        </li>
-                    </button>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="navbarDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cartas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Grass</a>
+                            <a class="dropdown-item" href="#">Poison</a>
+                            <a class="dropdown-item" href="#">Fire</a>
+                            <a class="dropdown-item" href="#">Flying</a>
+                            <a class="dropdown-item" href="#">Water</a>
+                            <a class="dropdown-item" href="#">Bug</a>
+                            <a class="dropdown-item" href="#">Eletric</a>
+                            <a class="dropdown-item" href="#">Ground</a>
+                            <a class="dropdown-item" href="#">Dairy</a>
+                            <a class="dropdown-item" href="#">Fighting</a>
+                            <a class="dropdown-item" href="#">Psychic</a>
+                            <a class="dropdown-item" href="#">Rock</a>
+                            <a class="dropdown-item" href="#">Steel</a>
+                            <a class="dropdown-item" href="#">Ice</a>
+                            <a class="dropdown-item" href="#">Ghost</a>
+                            <a class="dropdown-item" href="#">Dragon</a>    
+                        </div>
+                    </li>
                 </ul>
             </div>
-        </nav>
+        </nav>-->
     </header>
     <h1>Carrinho de Compras</h1>
     <div class="container-fluid">
         <div class="form-inline">
             <div class="form-group">
-                <input type="text" class="form-control" id="desc" placeholder="Description">
+                <input type="text" class="form-control" id="desc" placeholder="Nome do Pokemon">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="amount" placeholder="Amount">
+                <input type="text" class="form-control" id="amount" placeholder="Quantidade">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="value" placeholder="Value">
+                <input type="text" class="form-control" id="value" placeholder="Preço">
             </div>
             <span id="btnUpdate" style="display: none;">
                 <span id="inputIDUpdate"></span>
-                <button onclick="updateData();" class="btn btn-default">Save</button>
-                <button onclick="resetForm();" class="btn btn-default">Cancel</button>
+                <button onclick="updateData();" class="btn btn-default">Salvar/button>
+                <button onclick="resetForm();" class="btn btn-default">Cancelar</button>
             </span>
             <span id="btnAdd">
-                <button onclick="addData();" class="btn btn-default">Add</button>
-                <button onclick="resetForm();" class="btn btn-default">Reset</button>
-                <button onclick="deleteList();" class="btn btn-default">Delete list</button>
+                <button onclick="addData();" class="btn btn-default">Adicionar</button>
+                <button onclick="resetForm();" class="btn btn-default">Resetar</button>
+                <button onclick="deleteList();" class="btn btn-default">Deletar item</button>
             </span>
         </div>
 
@@ -151,19 +197,10 @@
                                 <a href="../../index.html" class="text-reset">Home</a>
                             </p>
                             <p>
-                                <a href="../../pokemonsTipos/aquatico.html" class="text-reset">Aquáticos</a>
+                                <a href="../../pokemonsTipos/aquatico.html" class="text-reset">Cartas</a>
                             </p>
                             <p>
-                                <a href="../../pokemonsTipos/eletrico.html" class="text-reset">Elétrico</a>
-                            </p>
-                            <p>
-                                <a href="../../pokemonsTipos/fogo.html" class="text-reset">Fogo</a>
-                            </p>
-                            <p>
-                                <a href="../../pokemonsTipos/terrestre.html" class="text-reset">Terrestre</a>
-                            </p>
-                            <p>
-                                <a href="../../pokemonsTipos/voador.html" class="text-reset">Voador</a>
+                                <a href="../../pokemonsTipos/eletrico.html" class="text-reset">Sobre nós</a>
                             </p>
                         </div>
 
