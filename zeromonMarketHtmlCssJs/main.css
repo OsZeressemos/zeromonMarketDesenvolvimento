@@ -1,8 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100%;
   font-family: rubik;
 }
 
@@ -18,30 +14,8 @@ body h1 {
   margin-top: 25px;
 }
 
-.navbar-brand {
-  position: absolute;
-  left: 50px;
-  bottom: 20px;
-  top: 20px;
-  height: auto;
-  width: 100%;
-  max-width: 200px;
-  display: inline-block;
-}
-
-.navbar{
-  background: linear-gradient(to right, rgb(230, 218, 218),rgb(239, 187, 230), rgba(153, 218, 255, 0.822),rgba(255, 254, 168, 0.822)80%);
-  padding-left: 20%;
-  display: block;
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-#textoNavbar ul button {
-  border-radius: 5px;
-  border: none;
-  background-color: transparent;
-  font-weight: bolder;
+.carousel-indicators{
+  margin-left: 0 !important;
 }
 
 #subirTopo {
@@ -77,38 +51,6 @@ body h1 {
   opacity:1;
   }
 
-/*.zeromon img {
-  margin-right: calc(50% - 350px/2);
-  margin-left: calc(50% - 350px/2);
-  width: 350px;
-  padding-top: 25px;
-}*/
-
-/*
-.zeromon h2 {
-  text-align: center;
-  font-size: medium;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-*/
-
-div.box {
-  margin-top: 25px;
-  margin-left: 80px;
-  display: inline-block;
-  text-align: center;
-}
-/*
-div.box a:-webkit-any-link {
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: large;
-  font-weight: bolder;
-}
-*/
-
 footer {
   margin-top: 20px;
   display: block;
@@ -131,32 +73,4 @@ footer div a {
 
 p {
   text-align: justify;
-}
-
-.textConfig{
-  margin-bottom: 50px;
-}
-.textConfig h3{
-  font-size: larger;
-  font-weight: bolder;
-}
-.textConfig p{
-  font-size: larger;
-  font-weight: bolder;
-}
-.textConfig li{
-  font-size: larger;
-}
-
-#btn-compra{
-  background-image: url(../assets/buy.png);
-}
-
-.integrantes{
-  width: px;
-}
-
-/*carousel*/
-.carousel-init img{
-    width: 100%;
 }
