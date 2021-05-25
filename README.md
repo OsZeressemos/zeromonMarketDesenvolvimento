@@ -1,7 +1,7 @@
-![](zeromonMarketPlace/assets/logoZeromon.png)
+![](assets/logoZeromon.png)
 <a name="back-to-top">
 <p align="center">
-<i>Projeto feito em Zeréssimos como requisito parcial da disciplina Front End Essencial.</i>
+<i>Projeto feito pelo grupo Zeréssimos como requisito parcial da disciplina Front-end, da Residência de Software do Serratec.</i>
 </p>
 <details  align="center">
 <summary><i>Professor Yuri Umbreon Weilemann</i>💚<i>, o brabo.</i></summary>
@@ -11,10 +11,27 @@
        <img align="center" height="300px" src="https://cdn2.bulbagarden.net/upload/thumb/3/3d/197Umbreon.png/600px-197Umbreon.png">
     </span>  
   </p>
-</details>
-  <br><br>
+</details>  
+<br>
+
+## <img height="40px" align="center" src="assets/pokebola.png" emoji-code="Pokebola" alt="Pokebola" />    Projeto Final 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Zeromom Market Place**    [*(Enunciado)*](materialDeAula/confidential.pdf)
+ * [**Site**](https://zeromon.vercel.app/)
+ * [**Vídeo**](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6802816921575288832?compact=1)
+ * [**Instagram**](https://www.instagram.com/zeressemos_company/)
+ * [**Repositório**](zeromonMarketPlace/)
+<br> 
+
+## <img height="45px" align="center" src="assets/umbreon.gif">Tecnologia Utilizada
+- [**CSS**](https://www.w3.org/Style/CSS/)    [(*Documentação MDN*)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [**HTML5**](https://html.spec.whatwg.org/)    [(*Documentação MDN*)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [**JavaScript**](https://www.javascript.com/)    [(*Documentação MDN*)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [**Visual Studio Code**](https://code.visualstudio.com/)    [*(Documentação)*](https://code.visualstudio.com/docs)
+
+- [**PokéAPI**](https://pokeapi.co/)    [*Documentação*](https://pokeapi.co/docs/v2)
+
 <p align="center">
-  <img align="center" height="400px" src="https://github.com/OsZeressemos/serratec/blob/main/assets/osZeressemosProTeam.png"> 
+  <img align="center" height="400px" src="assets/osZeressemosProTeam.png"> 
 </p>
 <table>
   <tr>
