@@ -1,4 +1,4 @@
-![](assets/logoZeromon.png)
+![](./assets/logoZeromon.png)
 <a name="back-to-top">
 <p align="center">
 <i>Projeto feito pelo grupo Zeréssimos como requisito parcial da disciplina Front-end, da Residência de Software do Serratec.</i>
@@ -12,9 +12,14 @@
     </span>  
   </p>
 </details>  
-<br>
+<br> 
 
-## <img height="40px" align="center" src="assets/pokebola.png" emoji-code="Pokebola" alt="Pokebola" />    Projeto Final 
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navegador&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile
+
+<img height="300px" align="center" src="assets/videoApresentacao/site.gif">&nbsp;&nbsp;
+<img height="300px" align="center" src="assets/videoApresentacao/mobile.gif">
+<br> 
+## <img height="40px" align="center" src="./assets/pokebola.png" emoji-code="Pokebola" alt="Pokebola" />    Projeto Final 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Zeromom Market Place**    [*(Enunciado)*](materialDeAula/confidential.pdf)
  * [**Site**](https://zeromon.vercel.app/)
  * [**Vídeo**](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6802816921575288832?compact=1)
@@ -22,16 +27,16 @@
  * [**Repositório**](zeromonMarketPlace/)
 <br> 
 
-## <img height="45px" align="center" src="assets/umbreon.gif">Tecnologia Utilizada
+## <img height="45px" align="center" src="./assets/umbreon.gif">Tecnologia Utilizada
 - [**CSS**](https://www.w3.org/Style/CSS/)    [(*Documentação MDN*)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [**HTML5**](https://html.spec.whatwg.org/)    [(*Documentação MDN*)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [**JavaScript**](https://www.javascript.com/)    [(*Documentação MDN*)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [**Visual Studio Code**](https://code.visualstudio.com/)    [*(Documentação)*](https://code.visualstudio.com/docs)
 
-- [**PokéAPI**](https://pokeapi.co/)    [*Documentação*](https://pokeapi.co/docs/v2)
+- [**PokéAPI**](https://pokeapi.co/)    [(*Documentação*)](https://pokeapi.co/docs/v2)
 
 <p align="center">
-  <img align="center" height="400px" src="assets/osZeressemosProTeam.png"> 
+  <img align="center" height="400px" src="./assets/osZeressemosProTeam.png"> 
 </p>
 <table>
   <tr>
