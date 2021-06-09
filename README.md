@@ -103,6 +103,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://linktr.ee/marcos_barker"><img src="https://avatars.githubusercontent.com/u/57602117?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marcos Paulo Marques Corrêa </b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=marcosbarker" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/JpBade"><img src="https://avatars.githubusercontent.com/u/82114843?v=4?s=100" width="100px;" alt=""/><br /><sub><b>João Paulo Bade</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=JpBade" title="Code">💻</a></td>
+
 
     <td align="center"><a href="https://github.com/M4G1Ck"><img src="https://avatars.githubusercontent.com/u/79328112?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gabriel Macedo Araújo</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=M4G1Ck" title="Code">💻</a></td>
 
