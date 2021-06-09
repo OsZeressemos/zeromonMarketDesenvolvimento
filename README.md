@@ -106,6 +106,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
     <td align="center"><a href="http://linktr.ee/volneineves"><img src="https://avatars.githubusercontent.com/u/82004090?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Volnei Neves</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=Volneineves" title="Code">💻</a></td>
 
+    <td align="center"><a href="https://github.com/JpBade"><img src="https://avatars.githubusercontent.com/u/82114843?v=4?s=100" width="100px;" alt=""/><br /><sub><b>João Paulo Bade</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=JpBade" title="Code">💻</a></td>
+
+
+    <td align="center"><a href="https://github.com/M4G1Ck"><img src="https://avatars.githubusercontent.com/u/79328112?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gabriel Macedo Araújo</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=M4G1Ck" title="Code">💻</a></td>
+
+
+    <td align="center"><a href="https://github.com/FredericoStilpen"><img src="https://avatars.githubusercontent.com/u/82114348?v=4?s=100" width="100px;" alt=""/><br /><sub><b>FredericoStilpen</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=FredericoStilpen" title="Code">💻</a></td>
+
     <td align="center"><a href="https://github.com/raiocodrigues"><img src="https://avatars.githubusercontent.com/u/82115790?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Caio Rodrigues</b></sub></a><br /><a href="https://github.com/OsZeressemos/zeromonMarketPlace/commits?author=raiocodrigues" title="Code">💻</a></td>
 
   </tr>
