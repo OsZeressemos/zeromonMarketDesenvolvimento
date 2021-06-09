@@ -16,6 +16,12 @@
     },
     {
 
+      "login": "M4G1Ck",
+      "name": "Gabriel Macedo Araújo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79328112?v=4",
+      "profile": "https://github.com/M4G1Ck",
+
+
       "login": "FredericoStilpen",
       "name": "FredericoStilpen",
       "avatar_url": "https://avatars.githubusercontent.com/u/82114348?v=4",
@@ -26,6 +32,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/82115790?v=4",
       "profile": "https://github.com/raiocodrigues",
 
+ 
       "contributions": [
         "code"
       ]
