@@ -20,7 +20,7 @@
 <img height="250px" align="center" src="assets/videoApresentacao/mobile.gif">
 <br> 
 ## <img height="40px" align="center" src="./assets/pokebola.png" emoji-code="Pokebola" alt="Pokebola" />    Projeto Final 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Zeromom Market Place**    [*(Enunciado)*](materialDeAula/confidential.pdf)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Zeromom Market Place**    [*(Enunciado)*](https://github.com/marcosbarker/serratec.residencia/blob/main/serratec.FrontEndEssencial/materialDeAula/confidential.pdf)
  * [**Site**](https://zeromon.vercel.app/)
  * [**Vídeo**](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6802816921575288832?compact=1)
  * [**Instagram**](https://www.instagram.com/zeressemos_company/)
